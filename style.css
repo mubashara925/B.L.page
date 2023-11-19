@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#navbarSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6527BE;
+    color: azure;
+    padding: 0px 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    
+}
+li{
+    list-style: none;
+}
+
+#bannerSection{
+    background-image: url(/ad.jpg);
+    height: 90vh;
+  background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#bannerSection h1{
+    font-size: 36px;
+    position: absolute;
+    left:60px;
+    top:41%;
+    background-color: rgb(192, 178, 178);
+    transform:rotate();
+
+    box-shadow: 0 0 20px gray;
+    transform: rotate(270deg);
+}
+/*-------end-------*/
+#aboutSection{
+    padding: 20px;
+
+}
+#aboutSection>h1{
+    font-size:50px ;
+    color: crimson;
+}
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+#aboutTextDiv>h1{
+    font-size: 30px;
+}
+#aboutTextDiv>p{
+    font-size: 24px;
+    text-align: justify;
+    line-height: 32px;
+} 
+
+#aboutTextbtn{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: darkred;
+    color:azure;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 gray;
+}
+/*------end about css----*/
+/*----- shope sart css------*/
+#shopeSection{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    align-items: center;
+
+}
+.shopeSectionCard{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: 0 0 30px 10px rgb(211, 142, 153);
+ 
+}
+
+.cardTextDiv>h3{
+    color: darkred;
+    font-size:24px ;
+
+}
+.cardTextDiv{
+    padding: 20px;
+}
+
+.cardTextDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: darkred;
+    color:azure;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 gray;
+}
+.cardTextDiv>button:hover{
+    background-color: crimson;
+    transition: 1s;
+}
+/*-------revew section----*/
+#revewsection{
+    padding: 20px;
+}
+#revewsection>h1{
+    font-size: 54px;
+    color: brown;
+
+}
+#revewsectionMainDiv{
+    display: flex;
+    gap: 50px;
+}
+.revewsectionCard{
+    background-color:crimson;
+    color: azure;
+    padding: 30px 10px;
+    text-align: center;
+
+}
+.revewsectionCard>img{
+    border-radius: 50%;
+    height: 150px;
+
+}
+.revewsectionCard>h2{
+    color: rgb(235, 166, 203);
+   }
+   
